@@ -97,9 +97,10 @@ Security Headers Checked:
 
 
 
-Requirements:
-bash
-pip install requests pyopenssl python-whois dnspython
+# Requirements:
+
+  bash: 
+   pip install requests pyopenssl python-whois dnspython
 
 
 
