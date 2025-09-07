@@ -1,77 +1,77 @@
 # Header-Security-Analysis-Tool
 
 
-Key Features of the Header Security Analyzer:
+# Key Features of the Header Security Analyzer:
 
-    Comprehensive Security Header Checks
+Comprehensive Security Header Checks
 
-    HSTS (Strict-Transport-Security): Ensures HTTPS enforcement
+HSTS (Strict-Transport-Security): Ensures HTTPS enforcement
 
-    X-Content-Type-Options: Prevents MIME type sniffing
+X-Content-Type-Options: Prevents MIME type sniffing
 
-    X-Frame-Options: Protects against clickjacking
+X-Frame-Options: Protects against clickjacking
 
-    Content-Security-Policy: Prevents XSS attacks
+Content-Security-Policy: Prevents XSS attacks
 
-    Referrer-Policy: Controls referrer information leakage
+Referrer-Policy: Controls referrer information leakage
 
-    Cookie Security: Checks HttpOnly, Secure, and SameSite flags
+Cookie Security: Checks HttpOnly, Secure, and SameSite flags
 
-    SSL/TLS Analysis
+SSL/TLS Analysis
 
-    Certificate validity and expiration
+Certificate validity and expiration
 
-    Protocol version detection (TLS 1.2+, SSLv3, etc.)
+Protocol version detection (TLS 1.2+, SSLv3, etc.)
 
-    Weak cipher detection
+Weak cipher detection
 
-    Redirect Analysis
+Redirect Analysis
 
-    HTTP to HTTPS redirect detection
+HTTP to HTTPS redirect detection
 
-    Redirect chain analysis
+Redirect chain analysis
 
-    Security implications of redirects
+Security implications of redirects
 
-    Detailed Reporting
+Detailed Reporting
 
-    Security scoring system (0-100)
+Security scoring system (0-100)
 
-    Severity-based issue categorization
+Severity-based issue categorization
 
-    Specific recommendations for each finding
+Specific recommendations for each finding
 
-    Raw headers display
+Raw headers display
 
-    User-Friendly Interface
+User-Friendly Interface
 
-    Clean GUI with tabbed interface
+Clean GUI with tabbed interface
 
-    Real-time analysis progress
+Real-time analysis progress
 
-    Color-coded results (Green/Orange/Red)
+Color-coded results (Green/Orange/Red)
 
-    Export functionality
+Export functionality
 
-How to Use:
+# How to Use:
 
 Enter a URL in the input field (e.g., https://example.com)
 
 Click "Analyze Security" to start the analysis
 
-Review the results in the Detailed Results tab:
+# Review the results in the Detailed Results tab:
 
-    Security score and summary
+ Security score and summary
 
-    Individual header analysis
+ Individual header analysis
 
-    Specific security issues
+Specific security issues
 
-    Raw HTTP headers
+Raw HTTP headers
 
 Export the report for documentation
 
-Security Headers Checked:
+# Security Headers Checked:
 
  1. Header Purpose Recommended Value
 
@@ -101,7 +101,7 @@ Security Headers Checked:
 
   bash: 
   
-   pip install requests pyopenssl python-whois dnspython
+    pip install requests pyopenssl python-whois dnspython
 
 
 
