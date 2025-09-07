@@ -73,23 +73,23 @@ Export the report for documentation
 
 Security Headers Checked:
 
-[ ] 1. Header Purpose Recommended Value
+ 1. Header Purpose Recommended Value
 
-[ ] 2. Strict-Transport-Security HTTPS enforcement max-age=31536000; includeSubDomains
+ 2. Strict-Transport-Security HTTPS enforcement max-age=31536000; includeSubDomains
 
-[ ] 3. X-Content-Type-Options MIME type protection nosniff
+ 3. X-Content-Type-Options MIME type protection nosniff
 
-[ ] 4. X-Frame-Options Clickjacking protection DENY or SAMEORIGIN
+ 4. X-Frame-Options Clickjacking protection DENY or SAMEORIGIN
 
-[ ] 5. Content-Security-Policy XSS protection default-src 'self'
+ 5. Content-Security-Policy XSS protection default-src 'self'
 
-[ ] 6. X-XSS-Protection XSS filter 1; mode=block
+ 6. X-XSS-Protection XSS filter 1; mode=block
 
-[ ] 7. Referrer-Policy Referrer control strict-origin-when-cross-origin
+ 7. Referrer-Policy Referrer control strict-origin-when-cross-origin
 
-[ ] 8. Permissions-Policy Feature control geolocation=(), microphone=()
+ 8. Permissions-Policy Feature control geolocation=(), microphone=()
 
-[ ] 9. Cookie Flags Session security HttpOnly; Secure; SameSite=Strict
+ 9. Cookie Flags Session security HttpOnly; Secure; SameSite=Strict
 
 
 
@@ -99,7 +99,8 @@ Security Headers Checked:
 
 Requirements:
 bash
-
 pip install requests pyopenssl python-whois dnspython
+
+
 
 This tool provides enterprise-level HTTP header security analysis and is essential for web application security assessments, penetration testing, and compliance checking.
