@@ -91,6 +91,12 @@ Security Headers Checked:
 
 [ ] 9. Cookie Flags Session security HttpOnly; Secure; SameSite=Strict
 
+
+
+
+
+
+
 Requirements:
 bash
 
