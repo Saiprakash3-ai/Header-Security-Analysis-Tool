@@ -76,12 +76,19 @@ Security Headers Checked:
 [ ] 1. Header Purpose Recommended Value
 
 [ ] 2. Strict-Transport-Security HTTPS enforcement max-age=31536000; includeSubDomains
+
 [ ] 3. X-Content-Type-Options MIME type protection nosniff
+
 [ ] 4. X-Frame-Options Clickjacking protection DENY or SAMEORIGIN
+
 [ ] 5. Content-Security-Policy XSS protection default-src 'self'
+
 [ ] 6. X-XSS-Protection XSS filter 1; mode=block
+
 [ ] 7. Referrer-Policy Referrer control strict-origin-when-cross-origin
+
 [ ] 8. Permissions-Policy Feature control geolocation=(), microphone=()
+
 [ ] 9. Cookie Flags Session security HttpOnly; Secure; SameSite=Strict
 
 Requirements:
